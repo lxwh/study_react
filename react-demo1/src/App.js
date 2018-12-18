@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import Life from './page/demo/Life.js'
 
 class App extends Component {
   render() {
@@ -19,10 +20,11 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Life />
         </header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
