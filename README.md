@@ -9,8 +9,8 @@
 - componentWillMount 即将装载 dom 虚拟
 - render 初始化数据及渲染
 - componentDidMount 装载 dom 成功并渲染数据
-- componentWillReceiveProps
-- shouldComponentUpdate
-- componentWillUpdate
-- componentDidUpdate
-- componentWillUnmount
+- componentWillReceiveProps 父子组件的传值
+- shouldComponentUpdate 需要更新的组件 控制数据等
+- componentWillUpdate 组件将要更新
+- componentDidUpdate 组件更新
+- componentWillUnmount 销毁组件
